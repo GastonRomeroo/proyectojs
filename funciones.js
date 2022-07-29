@@ -1,7 +1,7 @@
 
 //TP ENTREGABLE
 
-/*
+
 alert("Bienvenidos a la simulación de cobro por tarjeta de crédito, rogamos por favor no ingresar datos personales reales.");
 alert("A continuación, vamos a solicitar algunos datos, por favor completar para continuar.");
 
@@ -20,13 +20,10 @@ while (nombre == ""|| apellido == "" || isNaN(nroTarj) || isNaN(vencimiento) || 
   ccv = parseInt(prompt("ingrese su codigo de seguridad"));
 };
 
-
-
-
 alert("Vamos a realizar el cobro por ARS $10.000,00");
 
 alert("Ingrese la cantidad de cuotas que desea.\n CUOTAS 1= INTERES 0%.\n CUOTAS 2= INTERES 20%.\n CUOTAS 3= INTERES 50%.");
-*/
+
 let numerox = parseInt(prompt(" Ingrese la cantidad de cuota en numero"));
 let precio = 10000;
 let cuota1 = 1;
