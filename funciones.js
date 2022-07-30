@@ -33,10 +33,8 @@ let cuota3 = 1.5;
       function multiplicar(precio,numerox){
   
         var resultado= precio * numerox;
-        return(" Usted abonara $" + resultado );
+        return" Usted abonara $" + resultado;
       }
-
-
       if(numerox == "1"){
       alert(multiplicar(precio,cuota1)+ "en 1 pago.");
       }
@@ -46,6 +44,5 @@ let cuota3 = 1.5;
       if( numerox == "3"){
       alert(multiplicar(precio,cuota3)+" en 3 cuotas.");
       }
-
-
 alert("MUCHAS GRACIAS POR SU COMPRA LO ESPERAMOS NUEVAMENTE!");
+
